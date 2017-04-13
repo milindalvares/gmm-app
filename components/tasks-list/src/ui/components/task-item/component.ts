@@ -23,6 +23,6 @@ export default class TaskItem extends Component {
   }
 
   sendRequest() {
-    console.log(this.fullName, this.contact, this.worktime);
+    return;
   }
 };

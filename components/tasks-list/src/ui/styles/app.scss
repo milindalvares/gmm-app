@@ -99,7 +99,12 @@ h1,h2,h3,h4,h5,h6 {
     }
   }
   button.button-hand {
-    float: right;
+      margin: 0 auto;
+  }
+  @media (max-width: 500px) {
+    button.button-hand {
+      margin-top: 20px;
+    }
   }
 }
 

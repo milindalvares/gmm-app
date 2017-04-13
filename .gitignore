@@ -1,12 +1,11 @@
 .DS_Store
 
 # compiled output
-/dist
-/tmp
+/components/task-list/dist
+/components/task-list/tmp
 
 # dependencies
-*/node_modules
-/bower_components
+/components/task-list/node_modules
 
 # misc
 /.sass-cache

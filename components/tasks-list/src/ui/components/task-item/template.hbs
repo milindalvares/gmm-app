@@ -1,0 +1,32 @@
+<li class="row">
+  <div class="columns nine">
+    <h4>{{@item.title}}</h4>
+    <p class="description">
+      {{@item.description}}
+    </p>
+    <p class="additional">
+      {{@item.additional}}
+    </p>
+  </div>
+  <div class="columns three text-right">
+    <button onclick={{action showForm @item}} class="button-primary button-hand">I can do this</button>
+  </div>
+  {{#if isExpanded}}
+    <div class="columns twelve">
+      <div class="form">
+        <div class="form-group">
+          <span>I am</span> <input value={{fullName}} onkeyup={{action updateFullName}} class="form-control" placeholder="full name" />
+        </div>
+        <div class="form-group">
+          <span>reacheable via</span> <input value={{contact}} onkeyup={{action updateContact}} class="form-control" placeholder="phone and/or email" />
+        </div>
+        <div class="form-group">
+            <span>willing to commit to this task for the next</span> <input value={{worktime}}  onkeyup={{action updateWorktime}} class="form-control" placeholder="x weeks/months" />
+        </div>
+        <div class="text-center">
+          <button class="button-primary button-large" onclick={{action sendRequest}}>Send Volunteer Request</button>
+        </div>
+      </div>
+    </div>
+  {{/if}}
+</li>

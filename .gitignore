@@ -1,11 +1,11 @@
 .DS_Store
 
 # compiled output
-/components/task-list/dist
-/components/task-list/tmp
+/components/tasks-list/dist
+/components/tasks-list/tmp
 
 # dependencies
-/components/task-list/node_modules
+/components/tasks-list/node_modules
 
 # misc
 /.sass-cache

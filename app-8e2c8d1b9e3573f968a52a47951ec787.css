@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans Narrow", sans-serif; }
 
 #logo {
-  background: url("/assets/images/gmm-logo.png") no-repeat;
+  background: url("assets/images/gmm-logo.png") no-repeat;
   width: 169px;
   height: 168px;
   margin: 50px auto;
@@ -740,7 +740,7 @@ button.button-large {
   height: auto; }
 
 button.button-hand {
-  background: url("/assets/images/hand-icon.png") center top no-repeat;
+  background: url("assets/images/hand-icon.png") center top no-repeat;
   background-color: transparent;
   background-size: 55px 61px;
   height: 95px;
